@@ -1,8 +1,9 @@
 import { ErrorLayout } from "@/components/layouts/errorLayout/main";
 import NotFoundAction from "@/components/layouts/errorLayout/NfAction";
+import type { NotFoundProps } from "@/const/interfaces";
 import { FrownIcon } from "lucide-react";
 
-export default function NotFound() {
+export default function NotFound({ title = "404 - Not Found", description = "Oops! The page you are looking for does not exist. It might have been moved or deleted." }: NotFoundProps) {
   return (
     <ErrorLayout
       icon={
@@ -10,8 +11,8 @@ export default function NotFound() {
           <FrownIcon className="w-12 h-12 text-destructive dark:text-destructive/80" />
         </div>
       }
-      title="404 - Not Found"
-      description="Oops! The page you are looking for does not exist. It might have been moved or deleted."
+      title={title}
+      description={description}
     >
       <NotFoundAction />
       <p className="text-xs text-muted-foreground">Double-check the URL and try again.</p>
