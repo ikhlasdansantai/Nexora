@@ -31,3 +31,23 @@ export interface navItemsProps {
   href: string;
   label: string;
 }
+
+export interface ProductPriceProps {
+  price: number;
+  discount: number;
+}
+
+export interface ProductColorSelectorProps {
+  color: string;
+  icon?: string;
+  isSelected?: boolean;
+  onClick?: (event: React.MouseEvent<HTMLButtonElement>) => void;
+  size?: Size;
+}
+
+export type Size = "sm" | "md" | "lg" | "xl";
+
+export interface NotFoundProps {
+  title?: string;
+  description?: string;
+}
