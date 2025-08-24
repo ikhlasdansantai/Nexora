@@ -42,11 +42,20 @@ Follow these steps to run the project locally:
 git clone https://github.com/ikhlasdansantai/nexora.git
 cd nexora
 
+# install dep
 # with pnpm (recommended)
 pnpm install
 
 # or with npm
 npm install
+
+
+# run project
+# with pnpm (recommended)
+pnpm run dev
+
+# or with npm
+npm run dev
 ```
 The app will be available at: `http://localhost:5173` (Vite default) or as configured.
 
