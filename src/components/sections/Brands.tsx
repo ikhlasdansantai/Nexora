@@ -11,7 +11,7 @@ export default function BrandsSection() {
   if (!brands) return <p>Tidak ada data</p>;
 
   return (
-    <section className="mt-20">
+    <section className="mt-10">
       <BrandsMain />
     </section>
   );
