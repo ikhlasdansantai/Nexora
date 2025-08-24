@@ -1,6 +1,6 @@
 import ProductEmpty from "@/components/layouts/brand/BrandProductEmpty";
 import ProductItem from "@/components/layouts/brand/BrandProductItem";
-import { PaginationDemo } from "@/components/PaginationDemo";
+import { PaginationDemo } from "@/components/PaginationControl";
 import type { Brand } from "@/const/interfaces";
 import { useState } from "react";
 

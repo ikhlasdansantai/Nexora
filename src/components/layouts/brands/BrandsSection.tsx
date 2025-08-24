@@ -1,7 +1,7 @@
 import { useBrands } from "@/hooks/useBrands";
 import BrandItem from "./BrandItem";
 import { useState } from "react";
-import { PaginationDemo } from "@/components/PaginationDemo";
+import { PaginationDemo } from "@/components/PaginationControl";
 
 type PaginationProps = "next" | "prev" | number;
 
