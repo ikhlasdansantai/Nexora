@@ -16,7 +16,7 @@ function App() {
           >
             Discover Our Top Level Brands
           </h1>
-          <p className="mt-2.5">Explore work from the most talented and accomplished designers ready to take on your next project.</p>
+          <p className="mt-2.5">Explore a curated collection of high-quality products from top-tier brands, all in one place.</p>
         </div>
       </div>
 
