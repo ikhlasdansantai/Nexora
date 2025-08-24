@@ -1,6 +1,8 @@
 <h1 align="left">🤖 Nexora Website Overview</h1>
 
 <img width="1080" height="770" alt="nexora" src="https://github.com/user-attachments/assets/034cad07-bf6b-49b8-bc07-71ebb4cfd9e9" />
+<img width="1920" height="1126" alt="image" src="https://github.com/user-attachments/assets/489702d3-6ebe-4dea-a02b-12744266f7fb" />
+
 
 ---
 
