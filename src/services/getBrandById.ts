@@ -4,7 +4,7 @@ export async function getBrandById(id: string) {
   await new Promise((res) =>
     setTimeout(() => {
       res(true);
-    }, 2000)
+    }, 700)
   );
 
   const brand = mockBrands.find((brand) => brand.id === id);

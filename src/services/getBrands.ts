@@ -4,7 +4,7 @@ export async function getBrands() {
   await new Promise((res) =>
     setTimeout(() => {
       res(true);
-    }, 1)
+    }, 700)
   );
   return mockBrands;
 }

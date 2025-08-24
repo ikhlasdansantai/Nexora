@@ -4,7 +4,7 @@ export async function getProductById(id: string) {
   await new Promise((res) =>
     setTimeout(() => {
       res(true);
-    }, 2000)
+    }, 700)
   );
 
   for (const brand of mockBrands) {
