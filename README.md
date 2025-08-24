@@ -6,6 +6,11 @@
 
 ---
 
+## Link To
+- [Figma](https://www.figma.com/design/GD0lMvbqtBGDL4bfVVaQNq/Nexora?node-id=1-676&t=lEHe1u4klqJKKbyw-1)
+- [Live Preview](https://nexora-puce-zeta.vercel.app/)
+
+
 ## ✨ Main Features
 
 - Fully responsive design across devices  
