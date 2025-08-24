@@ -1,7 +1,7 @@
 import "@/App.css";
 import { Badge } from "@/components/ui/badge";
 import BrandsSection from "@/components/sections/Brands";
-import Navbar from "@/components/layouts/navbar/main";
+import Navbar from "@/components/layouts/navbar/PrimaryNavbar";
 
 function App() {
   return (

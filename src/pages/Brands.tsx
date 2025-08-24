@@ -1,6 +1,6 @@
 import BrandLoader from "@/components/layouts/brand/BrandLoader";
 import BrandItem from "@/components/layouts/brands/BrandItem";
-import Navbar from "@/components/layouts/navbar/main";
+import Navbar from "@/components/layouts/navbar/PrimaryNavbar";
 import { Badge } from "@/components/ui/badge";
 import { useBrands } from "@/hooks/useBrands";
 import NotFound from "./NotFound";
