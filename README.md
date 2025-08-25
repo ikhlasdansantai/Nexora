@@ -89,20 +89,21 @@ Singkatnya, `tanstack query`, adalah sebuah library untuk kita melakukan data fe
 
 ```tsx
 import { useQuery } from "@tanstack/react-query";
+import type { ProductProps } from "@/interfaces";
 
-function Products() {
-  const { data, isLoading, error } = useQuery({
+export default function Products() {
+  const { data: products, isPending, error } = useQuery<ProductProps[]>({
     queryKey: ["products"],
     queryFn: () => fetch("/api/products").then(res => res.json()),
   });
 
-  if (isLoading) return <p>Loading...</p>;
+  if (isPending) return <p>Loading...</p>;
   if (error) return <p>Error loading data :(</p>;
 
   return (
     <ul>
-      {data.map((p: any) => (
-        <li key={p.id}>{p.name}</li>
+      {products.map(({name, id}) => (
+        <li key={id}>{name}</li>
       ))}
     </ul>
   );
